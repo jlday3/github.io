@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web layout assignment</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="home">
+<div id="container">
+<head>
+	<img src="images/ttc_logo.png" alt="TT creative logo" class=headimage>
+</head>
+<nav>
+	<ul>
+		<li class="home"><a href="index.html">HOME</a></li> 
+	    <li class="aboutus"><a href="#">ABOUT</a></li>  
+	    <li class="portfolios"><a href="#">PORTFOLIO</a></li> 
+	    <li class="contactus"><a href="#">CONTACT</a></li> 
+	</ul>
+</nav>
+<section class="heroimage">
+  <div class="herotext">
+    <h1 style="font-size:64px; text-transform: uppercase; font-family: effrabold; padding: 0; margin: 0;">Designing your world</h1>
+    <p style="font-family: kepler; font-style: italic; font-size: 48px; padding: 0; margin: 0;">One Pixel at a time.</p>
+  </div>
+</section>
+<section class="about">
+	<h1 id="aboutUs" style="font-family: effrabold; font-size: 48px; color: #86765c; ">ABOUT US</h1>
+	<section class="aboutleft">
+		<p>Tow Trees Creative is a full-service graphic design agency based in Ventura, CA. Our goal is to provide elegant work and unsurpassed customer service to our clients in every way.</p>
+		<h2 style="font-family: myraid; font-size: 36; color: #b98c48;"> Meet Our Team of Creatives </h2>
+		<p>Collectively we have over 15 years experience in the graphic design industry, and our servies include brand identity development, business cards, brochures, flyers, catalogs, and more.  Thank you for considering us for your next project, and we hope to hear from you soon. </p>
+	</section>
+	<section class="aboutleft aboutright">
+		<img src="images/alex_morrales.jpg" alt="designer 1 photo">
+		<img src="images/david_kim.jpg" alt="designer 2 photo">
+		<img src="images/jenny_tabers.jpg" alt="designer 3 photo">
+		<img src="images/joey_barrett.jpg" alt="designer 4 photo">
+		<img src="images/melinda_lee.jpg" alt="designer 5 photo">
+		<img src="images/rachel_dotson.jpg" alt="designer 6 photo">
+	</section>
+</section>
+<section id="portfolio">
+	<h1 id="Portfolios" style="font-family: effrabold; font-size: 48px; margin-bottom: 0px; ">PORTFOLIO</h1>
+        <img class="topleftarrow" src="images/left.png" alt="topleftarrows">
+		<img class="toprightarrow" src="images/right.png" alt="toprightarrows">
+		<img class="bottomleftarrow" src="images/left.png" alt="bottomleftarrows">
+		<img class="bottomrightarrow" src="images/right.png" alt="bottomrightarrows">		
+	<div class="galleriesrow">
+        <img style="z-index:1" src="images/akridge_bcard.jpg" alt="portfolio 1 photo">
+        <img src="images/balloon_races.jpg" alt="portfolio 2 photo">	
+		<img src="images/seminar_flyer.jpg" alt="portfolio 3 photo">	
+ 		<img style="z-index:1" src="images/eyedr_billboard.jpg" alt="portfolio 4 photo">
+	</div>
+	<div class="galleriesrow">
+		<img style="z-index:1" src="images/nerdcamp_logo.jpg" alt="portfolio 5 photo">	
+		<img src="images/ockout_festival.jpg" alt="portfolio 6 photo">
+		<img src="images/history_of_flight.jpg" alt="portfolio 7 photo">	
+		<img style="z-index:1" src="images/welder_poster.jpg" alt="portfolio 8 photo">	
+	</div>
+</section>
+<section class="contact">
+	<section class="contactleft">
+		<img src="images/map.png" alt="map" width="565px">
+	</section>
+	<section class="contactleft contactright">
+		<h1 id="contactUs">CONTACT US</h1>
+		<form action="#">
+		    <input style="height: 48px" type="text" id="email" name="email" placeholder="Your Email Addresss">
+		    <input style="height: 48px" type="text" id="subject" name="subject" placeholder="Subject of Your Message">
+			<textarea style="height: 150px; " type="text" id="message" name="message" rows="4" cols="50" placeholder="Your message goes here.."></textarea>
+			<input type="image" name="submit" src="images/send.jpg" alt="Send" />
+		</form>	
+	</section>
+</section>
+<footer>
+	<section class="footerleft">
+		<img style="padding-top: 60px; float: left; width: 36px; " src="images/facebook.png" alt="facebookLogo">
+		<img style="padding-top: 60px; float: left; width: 36px; " src="images/twitter.png" alt="facebookLogo">
+		<img style="padding-top: 60px; float: left; width: 36px; " src="images/google.png" alt="facebookLogo">
+		<img style="padding-top: 60px; float: left; width: 36px; " src="images/pinterest.png" alt="facebookLogo">
+		<img style="padding-top: 60px; float: left; width: 36px; " src="images/dribble.png" alt="facebookLogo">
+	</section>
+	<section class="footerleft footerright">
+		<a href="index.html"><img style="float: right; padding-top: 30px; "src="images/btt.jpg" alt="Back to top"></a>
+		<p style="text-align: right; padding-right: 75px; margin-bottom: 0; margin-top: 5px; padding-top: 70px;">Back to Top</p>
+	</section>
+</footer>
+</div>
+</body>
+</html>
